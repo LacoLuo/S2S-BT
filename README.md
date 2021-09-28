@@ -9,7 +9,7 @@
 1. Choose a scenario of the ViWi dataset.
 2. Generate the raw dataset by following the official instruction.
 3. Create a codebook.
-4. Use the raw dataset and the codebook to find the optimal beam indice of each data point.
+4. Use the raw dataset and the codebook to find the optimal beam index of each data point.
 5. Generate the beam tracking dataset in csv format. Each data sample contains 13 consecutive beam indices.
 ```
 Beam_1,Beam_2,Beam_3,Beam_4,Beam_5,Beam_6,Beam_7,Beam_8,Beam_9,Beam_10,Beam_11,Beam_12,Beam_13
