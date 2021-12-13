@@ -1,5 +1,5 @@
 # Sequence-to-Sequence Learning for Beam Tracking
-- The official implementation of the VTC2021-Fall paper [Machine Learning Based mmWave Orchestration for Edge Gaming QoE Enhancement]().
+- The official implementation of the VTC2021-Fall paper [Machine Learning Based mmWave Orchestration for Edge Gaming QoE Enhancement](https://ieeexplore.ieee.org/document/9625307).
 - The repository uses the [ViWi](https://viwi-dataset.net) dataset.
 ## Requirements
 - Python 3.6
