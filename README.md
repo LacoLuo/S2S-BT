@@ -14,12 +14,12 @@
 python preprocess.py \
   --image_dir scenario/rgb/ \
   --codebook data_generation_package/codebook \
-  --wireless data_generation_package/data/raw_data \
+  --wireless data_generation_package/data/raw_data 
 ```
 5. Generate the beam tracking dataset in csv format. Each data sample contains 13 consecutive beam indices.
 ```
 python generate_dataset.py \
-  --beam_dir beam_dir/ \
+  --beam_dir beam_dir/ 
 ```
 Example:
 ```
