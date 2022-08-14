@@ -10,7 +10,18 @@
 2. Generate the raw dataset by following the official instruction.
 3. Create a codebook.
 4. Use the raw dataset and the codebook to find the optimal beam index of each data point.
+```
+python preprocess.py \
+  --image_dir scenario/rgb/ \
+  --codebook data_generation_package/codebook \
+  --wireless data_generation_package/data/raw_data \
+```
 5. Generate the beam tracking dataset in csv format. Each data sample contains 13 consecutive beam indices.
+```
+python generate_dataset.py \
+  --beam_dir beam_dir/ \
+```
+Example:
 ```
 Beam_1,Beam_2,Beam_3,Beam_4,Beam_5,Beam_6,Beam_7,Beam_8,Beam_9,Beam_10,Beam_11,Beam_12,Beam_13
 114,114,113,113,113,113,113,112,112,112,112,112,112
