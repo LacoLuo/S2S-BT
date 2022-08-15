@@ -41,6 +41,18 @@ python inference.py \
   --test_data_path data/test_set.csv \
   --load_model_path ckpt/best
 ```
+## Citation
+If you find our code helpful for your research, please consider citing the following paper:
+```
+@inproceedings{luo2021machine,
+  title={Machine Learning Based mmWave Orchestration for Edge Gaming QoE Enhancement},
+  author={Luo, Hao and Wei, Hung-Yu},
+  booktitle={2021 IEEE 94th Vehicular Technology Conference (VTC2021-Fall)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE}
+}
+```
 ## Acknowlegements
 - [https://github.com/malrabeiah/VABT](https://github.com/malrabeiah/VABT)
 - [https://github.com/malrabeiah/CameraPredictsBeams](https://github.com/malrabeiah/CameraPredictsBeams)
